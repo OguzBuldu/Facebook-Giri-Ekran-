@@ -1,0 +1,72 @@
+body{
+    background-color: #f7f0f0;
+}
+
+.başlık{
+    font-family:'helvetica neue', Helvetica, Arial, sans-serif;font-size:50px;
+    color: #8329b8;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+
+}
+.yazı{
+    font-family:'helvetica neue', Helvetica, Arial, sans-serif;font-size:30px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+
+.login-form{
+  position: absolute;
+  top: 0.1%;
+  right: 150px;
+  width: 400px;
+  height: 300px;
+  margin: 200px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form input[type="email"] {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.login-form input[type="password"] {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+button{
+  background-color: blue;
+  color: white;
+  width: 98%;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 20px;
+}
+.unuttum{
+  /* border-bottom: 2px solid; */
+  padding-left: 125px;
+  position: absolute;
+  top: 210px;
+  right: 150px;
+  text-decoration: underline;
+}
+.yeni-hesap{
+  background-color: green;
+  position: absolute;
+  top: 250px;
+  right: 3px;
+  width: 98%;
+}
+
